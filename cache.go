@@ -1,8 +1,8 @@
 package fgocache
 
 import (
-	"fgocache/hashring"
 	"github.com/go-redis/redis"
+	"github.com/kakiezhang/fgocache/hashring"
 )
 
 func New(servers []string) RedisCache {

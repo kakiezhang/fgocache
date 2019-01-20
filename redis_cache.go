@@ -2,8 +2,8 @@ package fgocache
 
 import (
 	"errors"
-	"fgocache/hashring"
 	"github.com/go-redis/redis"
+	"github.com/kakiezhang/fgocache/hashring"
 	"log"
 	"strconv"
 	"strings"
